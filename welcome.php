@@ -1,7 +1,6 @@
 <?php
 // Initialize the session
-// Include config file
-require_once "admin_config.php";
+
 session_start();
  
 // Check if the user is logged in, if not then redirect him to login page
